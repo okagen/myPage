@@ -4,10 +4,17 @@ collection: publications
 permalink: /publication/grade2_2018_11
 excerpt: 'Statistical certificate grade-2.'
 date: 2018-11-01
-venue: 'venue'
+venue: ''
 paperurl: 'https://okagen.github.io/files/stat_grade2/stat_grade2_2018_11.pdf'
 citation: ''
 ---
+
+# 問１ [1]
+
+$$ e^{i\theta} = \cos\theta + i\sin\theta $$
+
+
+
 This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](https://okagen.github.io/files/stat_grade2/stat_grade2_2018_11.pdf)
