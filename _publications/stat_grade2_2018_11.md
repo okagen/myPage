@@ -1,6 +1,6 @@
 ---
 title: "2018 11"
-collection: publications
+collection: statistics
 permalink: /publication/grade2_2018_11
 excerpt: 'Statistical certificate grade-2.'
 date: 2018-11-01
