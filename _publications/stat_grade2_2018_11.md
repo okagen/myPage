@@ -9,12 +9,9 @@ paperurl: 'https://okagen.github.io/files/stat_grade2/stat_grade2_2018_11.pdf'
 citation: ''
 ---
 
-# 問１ [1]
+# テスト
 
 $$ e^{i\theta} = \cos\theta + i\sin\theta $$
 
-
-
-This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](https://okagen.github.io/files/stat_grade2/stat_grade2_2018_11.pdf)
