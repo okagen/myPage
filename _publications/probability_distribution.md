@@ -34,14 +34,14 @@ $$
 
 
 $$
-\sigma ^2 _b  = npq
+\sigma^2 _b  = npq
 $$
 
 
 ### 二項係数（Binomial Coefficient）
 
 $$
- P(A) = \sum P(\{ (e_1,...,e_N) \})  =  {{N}\choose{k}} \cdot p^kq^{N-k}
+ P(X)  = \binom{n}{k} \cdot p^kq^{n-k}
 $$
 
 
@@ -53,7 +53,7 @@ $$
 
 
 $$
-P\left( x \right) = \frac{{e^{ - \lambda } \lambda ^x }}{{x!}}
+P\left( x \right) = \frac{ e^{-\lambda}  \lambda^x }{x!}
 $$
 
 
