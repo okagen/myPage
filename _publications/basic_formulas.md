@@ -98,5 +98,18 @@ CV  = \frac {s} {\bar x}
 $$
 
 
+標準誤差（Standard Error）
+===
+
+
+$$
+\frac{\sigma}{\sqrt n}
+$$
+
+
+
+
+
+
 
 
