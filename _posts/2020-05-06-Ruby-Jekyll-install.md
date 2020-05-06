@@ -1,6 +1,6 @@
 ---
 title       : 'RubyとJekyllをインストールしローカルPCでデバッグ'
-date        : 2020-04-06
+date        : 2020-05-06
 categories  : posts
 permalink   : /:categories/:year/:month/:day.html
 tags        :

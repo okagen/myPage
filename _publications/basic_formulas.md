@@ -3,7 +3,7 @@ title: "基本公式 / Basic formulas"
 collection: publications
 permalink: /publications/basic_formulas
 excerpt: '基本公式をまとめています。'
-date: 2020-04-06
+date: 2020-05-06
 venue:
 paperurl:
 citation:
