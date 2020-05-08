@@ -6,13 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ja-JP"
+locale                   : "en-US"
 title                    : "Okagen's page."
 title_separator          : "-"
 name                     : &name "Hidehiro Okamoto"
 description              : &description "personal description"
 url                      : https://okagen.github.io/myPage/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/myPage" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "okagen/myPage"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -85,8 +85,8 @@ author:
   bio              : "★Your biography for the left-hand sidebar"
   location         : "Tokyo, Japan"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  pubmed           : "★https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "★http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -106,7 +106,7 @@ author:
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : #"http://stackoverflow.com/users/123456/username"
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          :
