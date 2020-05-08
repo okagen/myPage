@@ -1,7 +1,7 @@
 ---
 title: "基本公式 / Basic formulas"
 collection: publications
-permalink: /publications/basic_formulas
+permalink: /publications/basic_formulas.html
 excerpt: '基本公式をまとめています。'
 date: 2020-05-06
 venue:
@@ -58,6 +58,7 @@ $$
 s^2  =  \frac{1}{n}\sum\limits_{i=1}^n{\left( {x_i - \bar x } \right)^2}
 $$
 
+<a id="unviased_variance"></a>
 ## 4.2. 不偏分散 (Unviased variance)
   - DoF : 自由度 / degree of freedom
   - RSS : 偏差平方和 / residual sum of squares

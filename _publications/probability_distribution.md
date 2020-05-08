@@ -1,14 +1,16 @@
 ---
 title: "確率分布 / Probability distribution"
 collection: publications
-permalink: /publications/probability_distribution
+permalink: /:collection/probability_distribution.html
 excerpt: '確率分布についてまとめています。'
 date: 2020-05-06
 venue:
 paperurl:
 citation:
 ---
-
+<!---
+    [Unviased variance](basic_formulas.html#unviased_variance)
+-->
 
 
 # 1. 離散分布（Discrete probability distribution）
