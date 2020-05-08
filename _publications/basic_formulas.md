@@ -80,7 +80,6 @@ $$
 # 5. 標準偏差 (SD : Standard Deviation)
 
 
-
 $$
 \sigma  = \sqrt {\sigma_2 }
 $$
@@ -88,6 +87,7 @@ $$
 <a id="coefficient_of_variation"></a>
 # 6. 変動係数 (CV : Coefficient of variation)
 
+量の散らばり具合を表す統計量。本来比較が難しい2種類以上の比較することが出来る。例えば、人の身長の散らばり具合と体重の散らばり具合の比較とか。
 
 $$
 CV  = \frac {\sigma} {\mu}
