@@ -19,6 +19,7 @@ citation:
 
 ### 1.2.1. 二項係数（binomial coefficient）
 
+
 $$
 \binom{n}{k} = \frac{n!}{k!(n-k)!}
 $$
