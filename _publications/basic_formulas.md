@@ -85,7 +85,7 @@ $$
 \sigma  = \sqrt {\sigma_2 }
 $$
 
-
+<a id="coefficient_of_variation"></a>
 # 6. 変動係数 (CV : Coefficient of variation)
 
 
