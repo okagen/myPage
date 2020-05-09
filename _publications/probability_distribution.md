@@ -3,7 +3,7 @@ title: "確率分布 / Probability distribution"
 collection: publications
 permalink: /:collection/probability_distribution
 excerpt: '確率分布についてまとめています。'
-date: date: 9999-01-20
+date: 9999-10-30
 venue:
 paperurl:
 citation:
