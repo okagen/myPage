@@ -35,20 +35,19 @@ $$
 P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) = 0.95
 $$
 
-$$
-\begin{align\*}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align\*}
-$$
+\begin{align}
+  \psi_1\rangle &= a|0\rangle + b|1\rangle \\\\\\\\
+  \psi_2\rangle &= c|0\rangle + d|1\rangle
+\end{align}
 
-$$
-\begin{align\*}
-    P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\\\
+
+
+\begin{align}
+  P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\\\\\\\
   \label{zScore1}
   P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) &= 0.95
-\end{align\*}
-$$
+\end{align}
+
 
 
 ここで```95%の確率で・・・```は、信頼区間95%の両側検定を意味するので、標準正規分布表より以下が言える。
