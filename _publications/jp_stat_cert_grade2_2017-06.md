@@ -28,7 +28,7 @@ $\left( \right)$ の中を式変換し、z値の式を作る。
 
 $$
 \begin{align}
-P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\
+P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\\\
 \label{zScore1}
 P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) &= 0.95
 \end{align}
@@ -41,7 +41,7 @@ $$
 P\left( \left| z \right| \leq 1.96 \right) = 0.95
 $$
 
-つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より
+つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より...
 
 
 $$
