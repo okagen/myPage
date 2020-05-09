@@ -24,7 +24,7 @@ $$
 P\left( \left| \frac{\bar X - \mu}{\mu} \right| \leq \pm 00.5 \right) = 0.95 \nonumber
 $$
 
-$\left( \right)$ の中を式変換し、z値の式を作る。
+$\left( \right)$ の中を式変換し、z値の式を作る。。。
 
 $$
 P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) = 0.95 \nonumber
