@@ -1,9 +1,9 @@
 ---
 title: "確率分布 / Probability distribution"
 collection: publications
-permalink: /publications/probability_distribution
+permalink: /:collection/probability_distribution
 excerpt: '確率分布についてまとめています。'
-date: 2020-05-06
+date: date: 9999-01-20
 venue:
 paperurl:
 citation:

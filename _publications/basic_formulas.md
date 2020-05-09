@@ -1,9 +1,9 @@
 ---
 title: "基本公式 / Basic formulas"
 collection: publications
-permalink: /publications/basic_formulas
+permalink: /:collection/basic_formulas
 excerpt: '基本公式をまとめています。'
-date: 2020-05-06
+date: 9999-01-10
 venue:
 paperurl:
 citation:
