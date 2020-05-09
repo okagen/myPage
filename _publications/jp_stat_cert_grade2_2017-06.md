@@ -42,7 +42,8 @@ $$
 P\left( \left| z \right| \leq 1.96 \right) = 0.95
 $$
 
-つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より
+つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より...
+
 
 $$
 \begin{eqnarray}
