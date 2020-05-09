@@ -26,14 +26,14 @@ $$
 
 $\left( \right)$ の中を式変換し、z値の式を作る。
 
-$$
+<script type="math/tex; mode=display">% <![CDATA[
 \begin{eqnarray}
 P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\
 
 \label{zScore1}
 P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) &= 0.95
 \end{eqnarray}
-$$
+%]]></script>
 
 ここで```95%の確率で・・・```は、信頼区間95%の両側検定を意味するので、標準正規分布表より以下が言える。
 
