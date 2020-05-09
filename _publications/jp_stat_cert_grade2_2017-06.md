@@ -35,18 +35,21 @@ $$
 P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) = 0.95
 $$
 
+$$
 \begin{align}
-  \psi_1\rangle &= a|0\rangle + b|1\rangle \nonumber \\\\\\\\
-  \psi_2\rangle &= c|0\rangle + d|1\rangle
-\end{align}
-
-
-
-\begin{align}
-  P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\\\\\\\
-  
+  \psi_1\rangle &= a|0\rangle + b|1\rangle \nonumber \\
+  \psi_2\rangle &= c|0\rangle + d|1\rangle \\
+  P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\
   P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) &= 0.95
 \end{align}
+$$
+
+
+\begin{align}
+  P\left( \left| \bar X - \mu \right| \leq \pm 00.5 \mu \right) &= 0.95 \nonumber \\
+  
+  P\left( \left| z \right| = \left| \frac{\bar X - \mu}{ \frac{\sigma}{\sqrt n}} \right| \leq \pm \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} \right) &= 0.95
+\end{align*}
 
 
 
@@ -85,8 +88,7 @@ $(\ref{sigma})を(\ref{sqrtN})$に代入して
 
 $$
 \begin{eqnarray}
-\sqrt n &= \frac{1.96 \times 0.4 \mu}{00.5 \mu} \nonumber \\
-&= 15.68 \nonumber \\
+\sqrt n &= \frac{1.96 \times 0.4 \mu}{00.5 \mu} = 15.68 \nonumber \\
 n &= 245.86 \nonumber
 \end{eqnarray}
 $$
