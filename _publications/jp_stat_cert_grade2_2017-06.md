@@ -87,8 +87,12 @@ $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
 #### Solution
 
 $$
-\setcounter{equation}{1}
+\begin{align*}
+\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
+\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
+\end{align*}
 $$
+
 
 
 全体の平方和を求める。。。
