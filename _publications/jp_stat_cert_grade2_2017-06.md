@@ -16,13 +16,15 @@ citation:
 
 -------------------------
 # 解き方
-## 問11 / [23]
-### Point
+
+問11 / [23]
+---
+#### Point
   1. 「ある精度で母平均を推定する為に、十分な量の標本の数を求めよ」という問題。
   2. 母集団の[変動係数](basic_formulas.html#coefficient_of_variation){:target="_blank"}が与えられている為、母平均と母分散（標準偏差）の関係が分かる。
   3. ```95%の確率で○○を±5%以下に抑える```という条件を満たすにあたり、標準正規分布にあてはめて確率を求めることを考える。つまり、まずはz値を計算することを考える。
 
-### Slution
+#### Slution
 問題文の通りに式を組み立てると以下になる。  
 
 $$
@@ -69,12 +71,40 @@ $(\ref{sigma})を(\ref{sqrtN})$に代入して
 
 $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
 
-### Memo
+#### Memo
+  - [変動係数](basic_formulas.html#coefficient_of_variation){:target="_blank"}
+  - 標準化
+  - 信頼区間
 
 
-## 問14 / [30]
-### Point
-### Solution
-### Memo
+問14 / [30]
+---
+#### Point
+  - 分散分析表を見て[不偏分散](basic_formulas.html#unviased_variance){:target="_blank"}を求める問題。
+  - 母数は```20店舗```であることを念頭に、自由度、平方和を求める。
+
+
+#### Solution
+
+$$
+\setcounter{equation}{1}
+$$
+全体の平方和を求める。
+
+\begin{align}
+  全平方和 &= 群間平方和（地域）+ 群内平方和（残差平方和） \\\\\\\\
+  &= 0.2204 + 0.3370
+\end{align}
+
+不偏分散を求める。
+
+$$
+  \frac{0.2204 + 0.3370}{20 - 1} = 0.0293
+$$
+
+
+$\therefore$ 0.0293 //
+
+#### Memo
 
 
