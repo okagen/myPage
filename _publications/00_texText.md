@@ -25,35 +25,35 @@ $$
     \end{aligned}
 $$
 
-＄＄＋\begin{align}  
+＄＄＋\begin{align}  最後に\
 
 $$
     \begin{align}
-        y &= ax + b \\
+        y &= ax + b\ \\
         \alpha &= \beta + \gamma
     \end{align}
 $$
 
-＄＄＋\begin{align*}  
+＄＄＋\begin{align*}   最後に\
 
 $$
     \begin{align*}
-        y &= ax + b \\
+        y &= ax + b\ \\
         \alpha &= \beta + \gamma
     \end{align*}
 $$
 
-ただの\begin{align}  
+ただの\begin{align}   最後に\
 
 \begin{align}
-    y &= ax + b \\\\\\\\
+    y &= ax + b\ \\\\\\\\
     \alpha &= \beta + \gamma
 \end{align}
 
-ただの\begin{align*}  
+ただの\begin{align*}   最後に\
 
 \begin{align*}
-    y &= ax + b \\\\\\\\
+    y &= ax + b\ \\\\\\\\
     \alpha &= \beta + \gamma
 \end{align*}
 
