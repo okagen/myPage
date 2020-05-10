@@ -46,13 +46,16 @@ $$
 P\left( \left| z \right| \leq 1.96 \right) = 0.95
 $$
 
-つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より
+つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より...
 
+
+$$
 \begin{align}
-  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber \\\\\\\\
+  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber \\
   \label{sqrtN}
   \sqrt n &= \frac{1.96\sigma }{0.05 \mu}
 \end{align}
+$$
 
 ここで```母変動係数が0.4```なので
 
@@ -86,24 +89,11 @@ $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
 
 #### Solution
 
-$$
-\begin{align*}
-\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
-\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\ \\
-
-\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
-\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
-
-\end{align*}
-$$
-
-
-
 全体の平方和を求める。。。
 
 $$
 \begin{align*}
-  全平方和 &= 群間平方和（地域）+ 群内平方和（残差平方和）\ \\
+  \text{全平方和} &= \text{群間平方和（地域）}+\text{ 群内平方和（残差平方和）}\ \\
   &= 0.2204 + 0.3370
 \end{align*}
 $$
