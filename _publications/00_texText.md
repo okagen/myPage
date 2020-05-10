@@ -20,7 +20,7 @@ $$
 
 $$
     \begin{aligned}
-        y = ax + b \\\\
+        y = ax + b \\
         \alpha = \beta + \gamma
     \end{aligned}
 $$
@@ -87,6 +87,13 @@ $$
     \end{align*}
 $$
 
+$$
+  \begin{align}
+    \psi_1\rangle &= a|0\rangle + b|1\rangle \\
+    &= c|0\rangle + d|1\rangle
+  \end{align}
+$$
 
-以上以上以上
+
+以上以上以上以上
 
