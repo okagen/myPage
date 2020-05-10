@@ -9,10 +9,10 @@ paperurl:
 citation:
 ---
 
-ただの＄＄  
+ただの＄＄  揃えていない
 
 $$
-    y = ax + b \\\\
+    y = ax + b \\
     \alpha = \beta + \gamma
 $$
 
@@ -20,8 +20,8 @@ $$
 
 $$
     \begin{aligned}
-        y &= ax + b \\
-        \alpha &= \beta + \gamma
+        y \ &= ax + b \\
+        \alpha \ &= \beta + \gamma
     \end{aligned}
 $$
 
@@ -29,8 +29,8 @@ $$
 
 $$
     \begin{align}
-        y &= ax + b \\
-        \alpha &= \beta + \gamma
+        y \ &= ax + b \\
+        \alpha \ &= \beta + \gamma
     \end{align}
 $$
 
@@ -38,8 +38,8 @@ $$
 
 $$
     \begin{align*}
-        y &= ax + b \\
-        \alpha &= \beta + \gamma
+        y \ &= ax + b \\
+        \alpha \ &= \beta + \gamma
     \end{align*}
 $$
 
