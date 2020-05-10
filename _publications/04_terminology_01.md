@@ -15,9 +15,9 @@ citation:
 
 
 | 要員<br>Factors | 平方和<br>SS| 自由度<br>DF| 不偏分散<br>U| F値<br>F-statistic| p値<br>p-value|
-|:---:|:---:|:---:|:---:|:---:|
-|群（Factor）|$SS_F$|DoF群=群数-1|U群=S群/DoF群|$\frac{\mbox{U群}}{\mbox{U残}}$|
-|残差（Error）|SS残差|DoF残 = 全データ-群数|U残=S残/DoF残||
-|全体（Total）|SS全体||||
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|群（Factor）|$SS_F$|$DoF_F = \mbox{群数} - 1$|$U_F = \frac{S_F}{DoF_F}$|$F = \frac{U_F}{U_E}$|
+|残差（Error）|$SS_E$|$DoF_E = \mbox{全データ数} - \mbox{群数}$|$U_E = \frac{S_E}{DoF_E}$||
+|全体（Total）|$SS_T = SS_F + SS_E$||||
 
 
