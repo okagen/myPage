@@ -51,9 +51,9 @@ $$
 
 $$
 \begin{align}
-  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber \\
+  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber\ \\
   \label{sqrtN}
-  \sqrt n &= \frac{1.96\sigma }{0.05 \mu}
+  \sqrt n &= \frac{1.96\sigma }{0.05 \mu}\
 \end{align}
 $$
 
@@ -94,7 +94,7 @@ $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
 $$
 \begin{align*}
   \text{全平方和} &= \text{群間平方和（地域）}+\text{ 群内平方和（残差平方和）}\ \\
-  &= 0.2204 + 0.3370
+  &= 0.2204 + 0.3370\
 \end{align*}
 $$
 
