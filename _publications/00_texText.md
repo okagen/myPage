@@ -12,7 +12,7 @@ citation:
 ただの＄＄  
 
 $$
-    y = ax + b \\
+    y = ax + b \\\\
     \alpha = \beta + \gamma
 $$
 
@@ -20,7 +20,7 @@ $$
 
 $$
     \begin{aligned}
-        y = ax + b \\
+        y = ax + b \\\\
         \alpha = \beta + \gamma
     \end{aligned}
 $$
@@ -29,8 +29,8 @@ $$
 
 $$
     \begin{align}
-        y & = ax + b\ \\
-        \alpha & = \beta + \gamma
+        y &= ax + b \\
+        \alpha &= \beta + \gamma
     \end{align}
 $$
 
@@ -38,8 +38,8 @@ $$
 
 $$
     \begin{align*}
-        y & = ax + b\ \\
-        \alpha & = \beta + \gamma
+        y &= ax + b \\
+        \alpha &= \beta + \gamma
     \end{align*}
 $$
 
@@ -79,14 +79,14 @@ $$
 
 $$
     \begin{align*}
-        \frac{\partial \theta}{\partial t}& = \frac{\partial}{\partial z}
+        \frac{\partial \theta}{\partial t} &= \frac{\partial}{\partial z}
         \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\ \\
 
-        & = \frac{\partial}{\partial z}
+        &= \frac{\partial}{\partial z}
         \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
     \end{align*}
 $$
 
 
-以上以上
+以上以上以上
 
