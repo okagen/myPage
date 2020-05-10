@@ -2,7 +2,7 @@
 title: "TexText"
 collection: publications
 permalink: /:collection/textest
-excerpt:
+excerpt: "Tex表記のテスト"
 date: 9999-12-31
 venue:
 paperurl:

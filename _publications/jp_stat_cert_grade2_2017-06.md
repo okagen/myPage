@@ -48,7 +48,6 @@ $$
 
 つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より...
 
-
 \begin{align}
   \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber \\\\\\\\
   \label{sqrtN}
@@ -86,21 +85,19 @@ $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
 
 #### Solution
 
-全体の平方和を求める。。。
+全体の平方和を求める。
 
-$$
 \begin{aligned}
-  \mbox{全平方和} &= \mbox{群間平方和 + 群内平方和（残差平方和）} \\
+  \mbox{全平方和} &= \mbox{群間平方和 + 群内平方和（残差平方和）} \\\\\\
   &= 0.2204 + 0.3370  
 \end{aligned}
-$$
 
 不偏分散を求める。
 
 $$
-\begin{align*}
+\begin{aligned}
   \frac{0.2204 + 0.3370}{20 - 1} = 0.0293
-\end{align*}
+\end{aligned}
 $$
 
 $\therefore$ 0.0293 //
