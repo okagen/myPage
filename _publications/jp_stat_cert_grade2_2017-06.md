@@ -49,13 +49,11 @@ $$
 つまり$\left( \ref{zScore1} \right)$と$\left( \ref{zScore2} \right)$ より...
 
 
-$$
 \begin{align}
-  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber\ \\
+  \frac{00.5 \mu}{\frac{\sigma}{\sqrt n}} &= 1.96 \nonumber \\\\\\\\
   \label{sqrtN}
   \sqrt n &= \frac{1.96\sigma }{0.05 \mu}\
 \end{align}
-$$
 
 ここで```母変動係数が0.4```なので
 
@@ -86,27 +84,29 @@ $\therefore$ 少なくとも、n = 245.86が必要ということになる。//
   - 分散分析表を見て[不偏分散](basic_formulas.html#unviased_variance){:target="_blank"}を求める問題。
   - 母数は```20店舗```であることを念頭に、自由度、平方和を求める。
 
-
 #### Solution
 
 全体の平方和を求める。。。
 
 $$
 \begin{align*}
-  \text{全平方和} &= \text{群間平方和（地域）}+\text{ 群内平方和（残差平方和）}\ \\
-  &= 0.2204 + 0.3370\
+  \mbox{全平方和} &= \mbox{群間平方和} + \mbox{群内平方和（残差平方和）} \\
+  &= 0.2204 + 0.3370
 \end{align*}
 $$
 
 不偏分散を求める。
 
 $$
+\begin{align*}
   \frac{0.2204 + 0.3370}{20 - 1} = 0.0293
+\end{align*}
 $$
-
 
 $\therefore$ 0.0293 //
 
 #### Memo
+  - 分散分析表
+  - [不偏分散](basic_formulas.html#unviased_variance){:target="_blank"}
 
 

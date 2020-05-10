@@ -16,7 +16,7 @@ $$
     \alpha = \beta + \gamma
 $$
 
-＄＄＋\begin{aligned}  
+＄＄＋\begin{aligned} &=を設定すると表示されない。
 
 $$
     \begin{aligned}
@@ -25,7 +25,7 @@ $$
     \end{aligned}
 $$
 
-＄＄＋\begin{align}  &&
+＄＄＋\begin{align} &=を設定すると表示されない。
 
 $$
     \begin{align}
@@ -34,7 +34,7 @@ $$
     \end{align}
 $$
 
-＄＄＋\begin{align*}   最後に\
+＄＄＋\begin{align*}  &=を設定すると表示されない。
 
 $$
     \begin{align*}
