@@ -76,6 +76,7 @@ $$
 $$
 
 
+
 $$
 \begin{align*}
 \frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
@@ -84,5 +85,5 @@ $$
 $$
 
 
-以上
+以上以上
 
