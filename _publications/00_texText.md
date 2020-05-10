@@ -60,7 +60,7 @@ $$
 
 $$
 \begin{aligned}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+    & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
@@ -78,10 +78,13 @@ $$
 
 
 $$
-\begin{align*}
-\frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
-\left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
-\end{align*}
+    \begin{align*}
+        \frac{\partial \theta}{\partial t}& = \frac{\partial}{\partial z}
+        \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\ \\
+
+        & = \frac{\partial}{\partial z}
+        \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
+    \end{align*}
 $$
 
 
