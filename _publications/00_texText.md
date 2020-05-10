@@ -57,43 +57,16 @@ $$
     \alpha & = \beta + \gamma
 \end{align*}
 
-
 $$
-\begin{aligned}
-    & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{aligned}
+\begin{align*}
+y = y(x,t) &= A e^{i\theta} \\
+&= A (\cos \theta + i \sin \theta) \\
+&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
+&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
+&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
+&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
+\end{align*}
 $$
 
-
-
-$$
-    \begin{align*}
-        \frac{\partial \theta}{\partial t} &= \frac{\partial}{\partial z}
-        \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\ \\
-
-        &= \frac{\partial}{\partial z}
-        \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]\
-    \end{align*}
-$$
-
-$$
-  \begin{align}
-    \psi_1\rangle &= a|0\rangle + b|1\rangle \\
-    &= c|0\rangle + d|1\rangle
-  \end{align}
-$$
-
-
-以上以上以上以上
+以上
 
