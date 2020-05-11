@@ -103,7 +103,7 @@ $$
 $\therefore$ 0.0293 //
 
 #### Memo
-  - 分散分析表
+  - [分散分析表](terminology_01_ANOVA.html#anova_table){:target="_blank"}
   - [不偏分散](basic_formulas.html#unviased_variance){:target="_blank"}
 
 
