@@ -31,11 +31,11 @@ Contents.
 <a id="anova_table"></a>
 ### 1.1. 分散分析表 / Analysis of variance table (ANOVA table)
 
-| 因子<br>S | 平方和<br>SS| 自由度<br>DF| 平方和平均<br>MS| F値<br>F| p値<br>P|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|群（Factor）or<br>群間（Between samples）|$SS_F$|$DF_F = \mbox{群数} - 1$|$MS_F = \frac{S_F}{DF_F}$|$F = \frac{MS_F}{MS_E}$|F分布表から<br>p値を求める|
-|残差（Error）or<br> 郡内（Within samples） |$SS_E$|$DF_E = \mbox{全データ数} - \mbox{群数}$|$MS_E = \frac{S_E}{DF_E}$||
-|全体（Total）|$SS_T = SS_F + SS_E$||||
+| 因子<br>S | 平方和<br>SS| 自由度<br>DF| 平方和平均<br>MS| F値<br>F|
+|:---:|:---:|:---:|:---:|:---:|
+|群（Factor）or<br>群間（Between samples）|$SS_F$|$DF_F = \mbox{群数} - 1$|$MS_F = \frac{S_F}{DF_F}$|$F = \frac{MS_F}{MS_E}$|
+|残差（Error）or<br> 郡内（Within samples） |$SS_E$|$DF_E = \mbox{全データ数} - \mbox{群数}$|$MS_E = \frac{S_E}{DF_E}$|
+|全体（Total）|$SS_T = SS_F + SS_E$|||
 
 ```
 S : The source of the variation in the data. 
@@ -55,11 +55,11 @@ P : The P-value.
 
 ### 2.1. 分散分析表
 
-| 因子<br>S | 平方和<br>SS| 自由度<br>DF| 平方和平均<br>MS| F値<br>F| p値<br>P|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|群（Factor）or<br>群間（Between samples）|$SS_F$|$DF_F = \mbox{群数} - 1$|$U_F = \frac{S_F}{DF_F}$|$F = \frac{MS_F}{MS_E}$|F分布表から<br>p値を求める|
-|残差（Error）or<br> 郡内（Within samples） |$SS_E$|$DF_E = \mbox{全データ数} - \mbox{群数}$|$U_E = \frac{S_E}{DF_E}$||
-|全体（Total）|$SS_T = SS_F + SS_E$||||
+| 因子<br>S | 平方和<br>SS| 自由度<br>DF| 平方和平均<br>MS| F値<br>F|
+|:---:|:---:|:---:|:---:|:---:|
+|群（Factor）or<br>群間（Between samples）|$SS_F$|$DF_F = \mbox{群数} - 1$|$U_F = \frac{S_F}{DF_F}$|$F = \frac{MS_F}{MS_E}$|
+|残差（Error）or<br> 郡内（Within samples） |$SS_E$|$DF_E = \mbox{全データ数} - \mbox{群数}$|$U_E = \frac{S_E}{DF_E}$|
+|全体（Total）|$SS_T = SS_F + SS_E$|||
 
 ### 2.2. 分散分析表作成手順
 #### 2.2.1. 前提
@@ -133,13 +133,13 @@ P : The P-value.
 ## 3. 二元配置分散分析 / Two-way analysis of variance
 ### 3.1. 分散分析表
 
-| S | SS | DF | MS| F| P|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|Factor A| $SS_A$ | $DF_A = r - 1$ | $MS_A = \frac{SS_A}{DF_A}$|$F_A = \frac{MS_A}{MS_E}$|F分布表から<br>p値を求める|
-|Factor B| $SS_B$ | $DF_B = c - 1$ | $MS_B = \frac{SS_B}{DF_B}$|$F_B = \frac{MS_B}{MS_E}$|F分布表から<br>p値を求める|
-|Interaction| $SS_{AB}$ | $DF_{AB} = \left( r-1 \right) \left(c - 1 \right)$ | $MS_{AB} = \frac{SS_{AB}}{DF_{AB}}$ |$F_{AB} = \frac{MS_{AB}}{MS_E}$|F分布表から<br>p値を求める|
-|Error(Within) |$SS_E$|$DF_E = rc \left( n - 1 \right)$|$SS_E = \frac{SS_E}{DF_E}$||
-|Total|$SS_T = SS_F + SS_E$|$DF_T = rcn-1$|||
+| S | SS | DF | MS| F|
+|:---:|:---:|:---:|:---:|:---:|
+|Factor A| $SS_A$ | $DF_A = r - 1$ | $MS_A = \frac{SS_A}{DF_A}$|$F_A = \frac{MS_A}{MS_E}$|
+|Factor B| $SS_B$ | $DF_B = c - 1$ | $MS_B = \frac{SS_B}{DF_B}$|$F_B = \frac{MS_B}{MS_E}$|
+|Interaction| $SS_{AB}$ | $DF_{AB} = \left( r-1 \right) \left(c - 1 \right)$ | $MS_{AB} = \frac{SS_{AB}}{DF_{AB}}$ |$F_{AB} = \frac{MS_{AB}}{MS_E}$|
+|Error(Within) |$SS_E$|$DF_E = rc \left( n - 1 \right)$|$SS_E = \frac{SS_E}{DF_E}$|
+|Total|$SS_T = SS_F + SS_E$|$DF_T = rcn-1$||
 
 
 
