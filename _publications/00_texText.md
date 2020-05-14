@@ -4,7 +4,7 @@ collection: publications
 permalink: /:collection/textest
 excerpt: "Tex表記のテスト"
 date: 9999-12-31
-venue:
+venue: none
 paperurl:
 citation:
 ---

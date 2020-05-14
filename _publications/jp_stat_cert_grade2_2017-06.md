@@ -1,8 +1,8 @@
 ---
-title: "統計検定 2級 2017年6月 (完成度 0.5/35)"
+title: "統計検定 2級 2017年6月"
 collection: publications
 permalink: /:collection/jp_stat_cert_grade2_2017-06.html
-excerpt: '統計検定 2級 2017年6月実施問題の解き方'
+excerpt: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,【23】,24,25,26,27,28,29,【30】,31,32,33,34,35 /【】は記載あり。
 date: 2017-06-17
 venue:
 paperurl:
