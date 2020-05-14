@@ -96,7 +96,7 @@ $$
 \begin{align}
   Cov\left( X_1, Y \right) &= 1/3 \cdot \bigl( V\left( X_1 \right) + Cov \left( X_1, X_2 \right) + Cov \left( X_1, X_3 \right) \bigr) \nonumber \\\\\\\\
   &= 1/3 \cdot \left( 1 + 0.5 + 0.5 \right) \nonumber \\\\\\\\
-  \ref{numerator2}
+  \label{numerator2}
   &= \frac{2}{3}  
 \end{align}
 
