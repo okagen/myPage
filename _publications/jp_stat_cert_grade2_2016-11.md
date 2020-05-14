@@ -9,19 +9,20 @@ paperurl:
 citation:
 ---
 
-# Table of contents
-
+# 1. Table of contents
+- [問18 / [14]](#%e5%95%8f18--14)
+- [問18 / [15]](#%e5%95%8f18--15)
 
 -------------------------
-# 解き方
+# 2. 解き方
 
 問18 / [14]
 ---
-#### Point
+#### 2.1. Point
   1. ```標準化```という言葉から「平均=0」「分散=1」を連想する。
   2. ```無相関```という言葉から「共分散=0」を連想する。
 
-#### Slution
+#### 2.2. Slution
 [相関係数](basic_formulas.html#correlation_coefficient)の式に$ Y=\left(X_1 + X_2 + X_3 \right)/3 $ を代入する。
 
 $$
@@ -61,7 +62,7 @@ $\left( \ref{numerator} \right)$と$\left( \ref{denominator} \right)$を用い�
   \frac{1}{3} \div \sqrt{\frac{1}{3}} = \frac{\sqrt{3}}{3} = 0.58 //
 \end{aligned}
 
-#### Memo
+#### 2.3. Memo
 
   - [相関係数](basic_formulas.html#correlation_coefficient)
   - [共分散](basic_formulas.html#covariance)
@@ -70,12 +71,12 @@ $\left( \ref{numerator} \right)$と$\left( \ref{denominator} \right)$を用い�
 
 問18 / [15]
 ---
-#### Point
+#### 2.4. Point
 
   1. 標準化された2つの確率変数XとYは、それぞれ分散=1になる。よってXとYが独立でない場合、それらの相関係数と共分散が同じ値になる。(独立の場合は、相関係数も共分散も0)
   2. 独立でない確率変数の和の分散V(X+Y)を展開した式はどうなるか。 
 
-#### Slution
+#### 2.5. Slution
 まず、Pointの1を考える。
 
 $$
@@ -117,6 +118,5 @@ $\left( \ref{numerator2} \right)$と$\left( \ref{denominator2} \right)$を用い
   \frac{2}{3} \div \sqrt{\frac{2}{3}} = 0.82 //
 \end{aligned}
 
-
-#### Memo
+#### 2.6. Memo
   - [分散の公式](basic_formulas.html#formula_for_variance)
