@@ -19,7 +19,7 @@ Table of contents.
   - [3.1. 母分散 / Population variance](#31-%e6%af%8d%e5%88%86%e6%95%a3--population-variance)
   - [3.2. 標本の分散](#32-%e6%a8%99%e6%9c%ac%e3%81%ae%e5%88%86%e6%95%a3)
   - [3.3. 共分散 / Covariance](#33-%e5%85%b1%e5%88%86%e6%95%a3--covariance)
-  - [3.4. 分散の公式 / Formula for the variance](#34-%e5%88%86%e6%95%a3%e3%81%ae%e5%85%ac%e5%bc%8f--formula-for-the-variance)
+  - [3.4. 分散の公式 / Formulas for the variance](#34-%e5%88%86%e6%95%a3%e3%81%ae%e5%85%ac%e5%bc%8f--formulas-for-the-variance)
 - [4. 相関係数 / Correlation coefficient](#4-%e7%9b%b8%e9%96%a2%e4%bf%82%e6%95%b0--correlation-coefficient)
 - [5. 標準偏差 / Standard Deviation (SD)](#5-%e6%a8%99%e6%ba%96%e5%81%8f%e5%b7%ae--standard-deviation-sd)
 - [6. 変動係数 (CV : Coefficient of variation)](#6-%e5%a4%89%e5%8b%95%e4%bf%82%e6%95%b0-cv--coefficient-of-variation)
@@ -109,7 +109,7 @@ Y=Xの場合を考えると、分散の式になる。
 \end{align}
 
 <a id="formula_for_variance">
-### 3.4. 分散の公式 / Formula for the variance
+### 3.4. 分散の公式 / Formulas for the variance
 
 \begin{align}
   & V\left( aX \right) = a^2 V\left( X \right) \\\\\\\\

@@ -9,20 +9,21 @@ paperurl:
 citation:
 ---
 
-# 1. Table of contents
-- [問18 / [14]](#%e5%95%8f18--14)
-- [問18 / [15]](#%e5%95%8f18--15)
+# Table of contents
+- [問8 / [14]](#%e5%95%8f8--14)
+- [問8 / [15]](#%e5%95%8f8--15)
+- [問9 / [17]](#%e5%95%8f9--17)
 
 -------------------------
-# 2. 解き方
+# 解き方
 
-問18 / [14]
+問8 / [14]
 ---
-#### 2.1. Point
+#### Point
   1. ```標準化```という言葉から「平均=0」「分散=1」を連想する。
   2. ```無相関```という言葉から「共分散=0」を連想する。
 
-#### 2.2. Slution
+#### Slution
 [相関係数](basic_formulas.html#correlation_coefficient)の式に$ Y=\left(X_1 + X_2 + X_3 \right)/3 $ を代入する。
 
 $$
@@ -62,21 +63,21 @@ $\left( \ref{numerator} \right)$と$\left( \ref{denominator} \right)$を用い�
   \frac{1}{3} \div \sqrt{\frac{1}{3}} = \frac{\sqrt{3}}{3} = 0.58 //
 \end{aligned}
 
-#### 2.3. Memo
+#### Memo
 
   - [相関係数](basic_formulas.html#correlation_coefficient)
   - [共分散](basic_formulas.html#covariance)
   - [分散の公式](basic_formulas.html#formula_for_variance)
 
 
-問18 / [15]
+問8 / [15]
 ---
-#### 2.4. Point
+#### Point
 
   1. 標準化された2つの確率変数XとYは、それぞれ分散=1になる。よってXとYが独立でない場合、それらの相関係数と共分散が同じ値になる。(独立の場合は、相関係数も共分散も0)
   2. 独立でない確率変数の和の分散V(X+Y)を展開した式はどうなるか。 
 
-#### 2.5. Slution
+#### Slution
 まず、Pointの1を考える。
 
 $$
@@ -118,5 +119,35 @@ $\left( \ref{numerator2} \right)$と$\left( \ref{denominator2} \right)$を用い
   \frac{2}{3} \div \sqrt{\frac{2}{3}} = 0.82 //
 \end{aligned}
 
-#### 2.6. Memo
+#### Memo
   - [分散の公式](basic_formulas.html#formula_for_variance)
+
+
+問9 / [17]
+---
+#### Point
+
+  1. ```平均λが20以上のポアソン分布は、正規分布で近似```より、正規分布の確率を求める。
+  2. [ポアソン分布](probability_distribution.html#poisson)の期待値と分散を思い出す。
+  3. [z値](probability_distribution.html#zscore) $\sim N\left(0,1\right)$を用いて、確率を求める。
+
+
+#### Slution
+
+```参加者は平均50（人）のポアソン分布に従う```とあるので、参加者数をXとすると、条件よりXは$\mu=50$の正規分布に近似できる。  
+
+$$
+  E\left( X \right) = \lambda \\
+  \color{red} V\left( X \right) = \lambda \color{black} \\
+   X \sim Po\left( \lambda \right) \sim N\left(\mu, \sigma^2 \right) = N\left(50, 50 \right) \\
+$$
+
+$\overline{X}>60$の確率を求める。
+
+$$
+  p\left( \overline{X} > 60 \right) = p\left( z = \frac{60 - 50}{\sqrt{50}} > 0 \right) = p\left( z>1.42 \right) = 0.0793 //
+$$
+
+#### Memo
+  - [ポアソン分布](probability_distribution.html#poisson)
+  - [z値](probability_distribution.html#zscore) 
