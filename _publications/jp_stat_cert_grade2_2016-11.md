@@ -2,7 +2,7 @@
 title: "統計検定 2級 2016年11月"
 collection: publications
 permalink: /:collection/jp_stat_cert_grade2_2016-11.html
-excerpt: 1,2,3,4,5,6,7,8,9,10,11,12,13,【14】,【15】,16,【17】,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 /【】は記載あり。
+excerpt: 1,2,3,4,5,6,7,8,9,10,11,12,13,【14】,【15】,16,【17】,18,19,20,21,【22】,23,24,25,26,27,28,29,30,31,32,33,34,35 /【】は記載あり。
 date: 2016-11-27
 venue:
 paperurl:
@@ -13,6 +13,7 @@ citation:
 - [問8 / [14]](#%e5%95%8f8--14)
 - [問8 / [15]](#%e5%95%8f8--15)
 - [問9 / [17]](#%e5%95%8f9--17)
+- [問11 / [22]](#%e5%95%8f11--22)
 
 -------------------------
 # 解き方
@@ -151,3 +152,35 @@ $$
 #### Memo
   - [ポアソン分布](probability_distribution.html#poisson)
   - [z値](probability_distribution.html#zscore) 
+
+
+問11 / [22]
+---
+
+#### Point
+
+  1. (ア)も(イ)も暗記しておく。
+  2. [不偏分散](basic_formulas.html#unviased_variance)の式を暗記する。
+  3. [平均の2乗の不偏推定量](terminology_02_unbiased_estimator.html#unbiased_estimator_of_mu_squared)も暗記する。
+
+#### Slution
+
+確率件数$X_1, X_2, ...X_n$が平均$\mu$、分散$\sigma^2$に独立に従うとき、$\sigma^2$の不偏推定量（不偏分散）$\hat{\sigma}^2$は以下の式。覚える。
+
+$$
+  X_1, X_2, ...X_n \sim \left( \mu, \sigma^2 \right) \\
+
+  \hat{\sigma^2} = \frac{1}{n-1} \sum\limits_{i=1}^n\left( X_i -\bar{X}\right)^2
+$$
+
+
+$\mu^2$の不偏推定量は、その期待値が$\mu^2$と等しくなるということ。覚える。
+
+$$
+  E\left( \bar{X^2} - \frac{ \hat{\sigma}^2}{n} \right) = \mu^2
+$$
+
+
+#### Memo
+  - [不偏分散](basic_formulas.html#unviased_variance)
+  - [平均の2乗の不偏推定量](terminology_02_unbiased_estimator.html#unbiased_estimator_of_mu_squared)
